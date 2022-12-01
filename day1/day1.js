@@ -13,7 +13,7 @@ es.forEach(e => {
     c.push(caa);
 })
 
-
+//sort decending
 let sorted = c.sort(function(a, b){return b-a});
 
 console.log("Antwort 1: ", sorted[0]);
