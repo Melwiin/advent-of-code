@@ -6,7 +6,6 @@ int main(int argc, char const *argv[])
 {
     std::string line;
     std::ifstream input ("input.txt");
-
     std::vector<int> calories;
 
     if (input.is_open())
