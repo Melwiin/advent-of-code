@@ -21,7 +21,7 @@ operations.forEach(operation => {
     for(var i = 0; i < para[0]; i++) {
         removedElement.push(stacks[para[1]-1].pop());
     }
-    removedElement.reverse();
+    removedElement.reverse(); //When reversed answer two will be accomplished
     for(e of removedElement) stacks[para[2]-1].push(e);
 });
 
